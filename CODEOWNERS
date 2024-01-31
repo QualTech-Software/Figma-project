@@ -4,3 +4,5 @@
 # For main branch rules assigning to myself
 main/*   @shivamnaik6574
 
+# Assign branch permissions
+/UAT/ @uparit
