@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@700&display=swap");
+
+.rect {
+  width: 1440px;
+  height: 484px;
+  position: absolute;
+  top: 782px;
+}
+
+.rectangle {
+  width: 720px;
+  height: 484px;
+}
+
+.rectangles {
+  width: 720px;
+  height: 484px;
+}
+
+.rect-title {
+  width: 649px;
+  height: 130px;
+  position: absolute;
+  top: 175px;
+  left: 35px;
+  transition-duration: 0.5s;
+  color: white;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 600;
+}
+
+.rect:hover .rect-title {
+  width: 453px;
+  height: 92px;
+  top: 80px;
+  left: 133px;
+  font-family: Manrope;
+  text-align: center;
+}
+
+.rect-text {
+  width: 649px;
+  height: 130px;
+  position: absolute;
+  top: 192px;
+  left: 35px;
+  opacity: 0;
+  color: white;
+}
+
+.rect:hover .rect-text {
+  opacity: 1;
+  width: 649px;
+  height: 130px;
+  top: 192px;
+  left: 35px;
+  font-family: Manrope;
+  text-align: center;
+  letter-spacing: 1%;
+  line-height: 26.1px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.learn {
+  width: 192px;
+  height: 59px;
+  position: absolute;
+  top: 362px;
+  left: 264px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  border-radius: 8px;
+}
+.learn:hover {
+  background-color: white;
+  text-decoration: underline;
+  transition: text-decoration 1s ease;
+}
+.rect:hover .learn {
+  opacity: 1;
+  width: 192px;
+  height: 59px;
+  top: 362px;
+  left: 264px;
+}
+.additional-content {
+  width: 720px;
+  height: 484px;
+  position: absolute;
+  left: 720px;
+  top: 780px;
+}
+.additional-title {
+  width: 344px;
+  height: 92px;
+  position: relative;
+  top: 172px;
+  left: 190px;
+  transition-duration: 0.5s;
+  color: white;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 700;
+}
+.additional-content:hover .additional-title {
+  width: 344px;
+  height: 92px;
+  top: 80px;
+  left: 189px;
+  font-family: Manrope;
+  text-align: center;
+}
+.additional-text {
+  opacity: 0;
+  width: 489px;
+  height: 104px;
+  position: absolute;
+  top: 192px;
+  left: 116px;
+  color: white;
+}
+.additional-content:hover .additional-text {
+  opacity: 1;
+  width: 489px;
+  height: 104px;
+  position: absolute;
+  top: 192px;
+  left: 116px;
+  color: white;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: center;
+}
+.additional-learn {
+  width: 192px;
+  height: 59px;
+  position: absolute;
+  top: 380px;
+  left: 265px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  border-radius: 8px;
+}
+.additional-learn:hover {
+  background-color: white;
+  text-decoration: underline;
+  transition: text-decoration 1s ease;
+}
+.additional-content:hover .additional-learn {
+  opacity: 1;
+  width: 192px;
+  height: 59px;
+  top: 380px;
+  left: 265px;
+}
