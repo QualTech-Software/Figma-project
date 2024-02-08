@@ -3,36 +3,56 @@
   width: 1440px;
   height: 865px;
   margin: 0 auto;
-  background-color: #1A405C;
-  position: relative; /* Added for positioning purposes */
+  background-image: url('svg/Rectangle\ 22\ 1.png'); /* Replace 'path/to/your/image.png' with the actual path to your image file */
+  background-size: cover; /* Adjust background-size property as needed */
+  background-position: center center; /* Adjust background-position property as needed */
+  position: relative;
 }
-  h1{
-    font-size: 48px;
-    line-height: 69.6px;
-    text-align: center;
-    width: 297px;
-    height: 69.49px;
-    color: #eeebeb;
-    align-items: center;
-    margin-left: 37%;
-    top: 40px;
-    left: 571px;
-  }
-  h6 {
-    width: 640px;
-    height: 51.62px;
+h1 {
+  font-size: 48px;
+  line-height: 69.49px;
+  text-align: center;
+  font-weight: 600;
+  width: 297px;
+  height: 40px; /* Adjusted height to 40px */
+  color: #eeebeb;
+  position: absolute; /* Changed position to absolute */
+  top: 0px; /* Adjusted top position to 40px */
+  left: 571px; /* Adjusted left position to 571px */
+  align-items: center;
+  justify-content: center;
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    height: 0;
+    border-top: 2px solid #fff; /* You can adjust the color and thickness of the lines */
+    width: 455px;
     position: absolute;
-    top: 60px;
-    left: 400px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26.1px;
-    
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-
+    top: 100%;
+    transform: translateY(-50%);
   }
-  
+  &:before {
+    left: -488px; /* Adjust the positioning of the line on the left side */
+  }
+  &:after {
+    right: -488px; /* Adjust the positioning of the line on the right side */
+  }
+}
+h6 {
+  width: 640px;
+  height: 51.62px;
+  position: absolute;
+  top: 85.38px;
+  left: 409px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26.1px;
+  letter-spacing: 5%;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -40,8 +60,6 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  
   .card {
     border-radius: 8px;
     background-color: #eeebeb;
@@ -53,7 +71,6 @@
     width: 400px;
     height: 280px;
   }
-  
   .card:hover {
     background-color: rgba(31, 206, 238, 0.80);
     color: white;
@@ -61,33 +78,30 @@
       color: white;
     }
   }
-
   .title {
     width: 229.84px;
     height: 25.82px;
     position: absolute;
     top: 23.83px;
-   
     font-weight: 700;
     line-height: 26.1px;
     letter-spacing: 1%;
-    size: 18px;
-    
+    font-size: 18.5px;
+    margin-left: 3px;
   }
-  
   .text {
     position: absolute;
-    top: 68.51px;
+    top: 68.45px;
     color: #000;
     width: 270.4px;
     height: 113.191px;
-   font-size: 13px;
-font-weight: 500;
-line-height: 18.85px;
-letter-spacing: 1%;
-
-  }
-  
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.85px;
+    letter-spacing: 1%;
+    margin-left: 3px;
+    margin-top: -1px;
+  } 
 .btn {
   position: absolute;
   top: 221px;
@@ -100,7 +114,6 @@ letter-spacing: 1%;
   background: #FFF;
   z-index: 6; /* Adjust the z-index to ensure buttons are on top of other elements */
 }
-  
 .btn p{
   position: relative;
   color: #000;
@@ -132,8 +145,7 @@ letter-spacing: 1%;
     top: 217px;
     left: 960px;
     z-index: 2; /* Adjust the z-index if needed to ensure it's on top of the first two cards and below other cards */
-  }
-  
+  }  
 .card:nth-child(4) {
   position: absolute;
   top: 537px;
@@ -156,92 +168,449 @@ letter-spacing: 1%;
   position: absolute;
   top: 0;
   right: 0;
-  width: 83.2px;
+  width: 75.2px;
   height: 277px;
   border-radius: 8px;
   border: 1px solid rgba(31, 206, 238, 0.80);
-
 }
-.card:hover .svg-container {
+.card:hover .svg-container 
+{
   border-color: #FFF;
 }
-
 .svg-img,
 .scalable-img,
-.scalable-img {
+.scalable-img,
+.innovative-img,
+.accessible-img,
+.fast-img,
+.innovatives-img,
+.navigational-img,
+.soothing-img,
+.functional-img,
+.secure-img,
+.customized-img,
+.user-friendly-img,
+.affordable-img,
+.innovation-img,
+.optimization-img,
+.productive-img,
+.analytics-img{
+  fill: #000;
   width: 35px;
   height: 35px;
   object-fit: cover; /* Ensure the SVGs cover the container */
 }
-.svg-img {
+.svg-img,
+.innovative-img{
   position: absolute;
   top: 23.83px;
-  right: 24.62px;
+  right: 20.62px;
 }
-.reliable-img {
+.reliable-img,
+.accessible-img{
   position: absolute;
   top: 107.23px;
-  right: 24.1px;
+  right: 23.1px;
 }
 
-.scalable-img {
+.scalable-img,
+.fast-img {
   position: absolute;
   top: 190.64px;
   right: 24.1px;
 }
+.innovatives-img {
+  position: absolute;
+  top: 23.83px;
+  right: 22.8px;
+}
+.navigational-img {
+  position: absolute;
+  top: 107.23px;
+  right: 22.8px;
+}
+.soothing-img {
+  position: absolute;
+  top: 190.64px;
+  right: 21.23px;
+}
+.functional-img {
+  position: absolute;
+  top: 23.83px;
+  right: 23px;
+}
+.secure-img {
+  position: absolute;
+  top: 107.23px;
+  right: 22.5px;
+}
+.customized-img {
+  position: absolute;
+  top: 190.64px;
+  right: 22.5px;
+}
+.user-friendly-img {
+  position: absolute;
+  top: 23.83px;
+  right: 22.5px;
+}
+.affordable-img {
+  position: absolute;
+  top: 107.23px;
+  right: 22.5px;
+}
+.innovation-img {
+  position: absolute;
+  top: 190.64px;
+  right: 22.5px;
+}
+.optimization-img {
+  position: absolute;
+  top: 23.83px;
+  right: 23px;
+}
+.productive-img {
+  position: absolute;
+  top: 107.23px;
+  right: 23px;
+}
+.analytics-img {
+  position: absolute;
+  top: 190.64px;
+  right: 21.5px;
+}
 .card:hover .svg-img,
 .card:hover .reliable-img,
 .card:hover .scalable-img {
+  fill: white;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+.card:hover .innovative-img,
+.card:hover .accessible-img,
+.card:hover .fast-img,
+.card:hover .innovatives-img,
+.card:hover .navigational-img,
+.card:hover .soothing-img,
+.card:hover .functional-img,
+.card:hover .secure-img,
+.card:hover .customized-img,.card:hover .user-friendly-img,
+.card:hover .affordable-img,
+.card:hover .innovation-img,
+.card:hover .optimization-img,
+.card:hover .productive-img,
+.card:hover .analytics-img   {
+  fill: black;
+  color: white;
+  filter: brightness(0) invert(1);
+}
+.card:hover .svg-label.robust,
+.card:hover .svg-label.reliable,
+.card:hover .svg-label.scalable,
+.card:hover .svg-label.innovative,
+.card:hover .svg-label.accessible,
+.card:hover .svg-label.fast,
+.card:hover .svg-label.innovatives,
+.card:hover .svg-label.navigational,
+.card:hover .svg-label.soothing,
+.card:hover .svg-label.functional,
+.card:hover .svg-label.secure,
+.card:hover .svg-label.customized,
+.card:hover .svg-label.userfriendly,
+.card:hover .svg-label.affordable,
+.card:hover .svg-label.innovation,
+.card:hover .svg-label.optimization,
+.card:hover .svg-label.productive,
+.card:hover .svg-label.analytics
+  {
   color: white;
   filter: brightness(0) invert(1);
 }
 .svg-label.robust {
   color: #000; /* Set the color as needed */
   font-size: 10px;
-  font-weight: 700;
   position: absolute;
-  top: 68.83px;
+  font-family: Manrope;
+  font-weight: 700;
+  top: 58.83px;
   right: 15.62px;
-  line-height: 14.5px;
-  width: 53px;
+  line-height: 15px;
+  width: 50px;
   height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   letter-spacing: 1%;
 }
 .svg-label.reliable {
   color: #000; /* Set the color as needed */
   font-size: 10px;
-  font-weight: 700;
   position: absolute;
-  top: 152.23px;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 143.23px;
   right: 23.6px;
   line-height: 14.5px;
-  width: 53px;
+  width: 33px;
   height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   letter-spacing: 1%;
 }
 .svg-label.scalable {
   color: #000; /* Set the color as needed */
   font-size: 10px;
-  font-weight: 700;
   position: absolute;
-  top: 235.64px;
+  font-family: Manrope;
+  font-weight: 700;
+  top: 225.64px;
   right: 11.6px;
   line-height: 14.5px;
-  width: 53px;
+  width: 60px;
   height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   letter-spacing: 1%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+.svg-label.innovative {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 55.83px;
+  right: 8px;
+  line-height: 14.5px;
+  width: 65px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.accessible {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 140.23px;
+  right: 13px;
+  line-height: 14.5px;
+  width: 55px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.fast {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 223.64px;
+  right: 17px;
+  line-height: 14.5px;
+  width: 47px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.innovatives {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 56.83px;
+  right: 7.8px;
+  line-height: 14.5px;
+  width: 65px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.navigational {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 139.23px;
+  right: 12.83px;
+  line-height: 14.5px;
+  width: 55px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.soothing {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 222.64px;
+  right: 16.8px;
+  line-height: 14.5px;
+  width: 47px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.functional {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  top: 57.83px;
+  right: 14px;
+  line-height: 14.5px;
+  font-family: Manrope;
+  width: 53px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.secure {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 142.23px;
+  right: 22px;
+  line-height: 14.5px;
+  width: 36px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.customized {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-family: Manrope;
+  font-weight: 700;
+  top: 225.64px;
+  right: 10px;
+  line-height: 14.5px;
+  width: 60px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.userfriendly {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-family: Manrope;
+  font-weight: 700;
+  top: 57.83px;
+  right: 7px;
+  line-height: 14.5px;
+  width: 66px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.affordable {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 142.23px;
+  right: 14px;
+  line-height: 14.5px;
+  width: 52px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.innovation {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 222.64px;
+  right: 14px;
+  line-height: 14.5px;
+  width: 52px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.optimization {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 58.83px;
+  right: 8px;
+  line-height: 14.5px;
+  width: 65px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.productive {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 142.23px;
+  right: 13px;
+  line-height: 14.5px;
+  width: 55px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
+.svg-label.analytics {
+  color: #000; /* Set the color as needed */
+  font-size: 10px;
+  position: absolute;
+  font-weight: 700;
+  font-family: Manrope;
+  top: 224.64px;
+  right: 17px;
+  line-height: 14.5px;
+  width: 47px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1%;
+}
