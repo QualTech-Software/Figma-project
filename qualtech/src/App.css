@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@700&display=swap');
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  margin-right: 500px;
+  
+}
+li{
+  margin: 48px;
+  float: right;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.1px;
+  color:white;
+  margin-top: 25.53px;
+  margin-bottom: 25.47px;
+  margin-right: 80px;
+  
+}
+
+.navbar-nav {
+  float: right;
+  width: 712px;
+  height: 49px;
+  margin-top: 25.53px;
+  margin-bottom: 25.47px;
+  margin-left:320px;
+  gap: 40px;
+}
+
+.nav-item {
+  margin-right: 10px; 
+  color:white;
+}
+
+.container{
+  width: 1440px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 5px 0;
+}
+.nav-home {
+  width: 51px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  position: absolute; /* Add this line to position absolutely */
+  top: 39px; /* Position 37px from the top */
+  left: 648px; /* Position 648px from the left */
+}
+.nav-about{
+  width: 95px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+position: absolute; /* Add this line to position absolutely */
+  top: 39px; /* Position 37px from the top */
+  left: 747px; /* Position 648px from the left */
+}
+.nav-service{
+  width: 75px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+position: absolute; /* Add this line to position absolutely */
+  top: 39px; /* Position 37px from the top */
+  left: 874px; /* Position 648px from the left */
+}
+.nav-portfolio{
+  width: 75px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+position: absolute; /* Add this line to position absolutely */
+  top: 39px; /* Position 37px from the top */
+  left: 987px; /* Position 648px from the left */
+}
+.nav-career{
+  width: 59px;
+  height: 26px;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+position: absolute; /* Add this line to position absolutely */
+  top: 39px; /* Position 37px from the top */
+  left: 1110px; /* Position 648px from the left */
+}
+.nav-button {
+  top: 27.53px; /* Position 25.53px from the top */
+  left: 1172px; /* Position 1213px from the left */
+  width: 147px;
+  height: 49px;
+  border-radius: 8px;
+  color: white;
+  margin-left: 44px;
+  background-color: rgba(26, 64, 92, 1);
+  position: absolute;
+  
+}
+button:hover{
+  background-color: rgba(10, 190, 222, 1);
+  ;
+}
+.nav-btn {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 7px;
+  width: 97px;
+  height: 25px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rocket {
+  width: 16px;
+  height: 16px;
+left: 13px;
+top: 16.spx;
+}
+.nav-button:hover .rocket {
+  transform: rotate(90deg); /* Rotate the rocket 180 degrees */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+.logo-img{
+  margin-left: 80px;
+  margin-top: 14px;
+  margin-bottom: 13.95px;
+
+}
+ul{
+  margin-left: 648px;
+}
+.homecontainer{
+  width: 1440px;
+height: 726px;
+angle: 0 deg;
+
+}
+.Title {
+  position: absolute;
+  top: 115px;
+  left: 90px;
+  width: 749px;
+  height: 168px;
+}
+
+.Title h1 {
+  font-family: Lato;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.Text{
+  position: absolute;
+  top: 329px;
+  left: 88px;
+  width: 630px;
+height: 130px;
+}
+.Text p {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+
+}
+.button {
+  width: 217px;
+  height: 56px;
+  background-color:  rgba(0, 0, 0, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.59px;
+  text-align: center;
+  position: absolute;
+  top: 515px;
+  left: 88px;
+}
+.button:hover {
+  background-color: rgba(26, 64, 92, 1); /* Same color as default */
+}
+button p{
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 15.5px;
+margin-left: 39px;
+}
+
+.dservice {
+  width: 217px;
+  height: 56px;
+  background: none; /* Remove background color and image */
+  color: transparent; /* Set text color to transparent */
+  border: 2px solid white; /* Set border color to white */
+  border-radius: 8px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  position: absolute;
+  top: 515px;
+  left: 345px; 
+}
+.dservice:hover{
+  background: rgba(26, 64, 92, 1);
+
+}
+.arrow {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; /* Align the arrow vertically */
+  margin-left:5px; 
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 94px); /* Adjust left position to center the arrow */
+  transform: translate(-50%, -50%); /* Center the arrow vertically and horizontally */
+  z-index: 2;
+}
+
+.dservice p {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 1px;
+}
+.designs{
+  width: 289.55px;
+height: 245.99px;
+top: 192.52px;
+left: 990.47px;
+
+}
