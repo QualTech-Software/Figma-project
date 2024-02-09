@@ -1,8 +1,5 @@
-# Assigned all .txt files to the team
+# Assigned all files for approval to the team
 * @QualTech-Software/Team-approval
 
 # For main branch rules assigning to myself
 main/*   @shivamnaik6574
-
-# Assign branch permissions
-/UAT/ @uparit @shivamnaik6574
