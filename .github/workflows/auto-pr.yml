@@ -1,4 +1,4 @@
-name: Auto Create PR
+name: Auto Generate PR
 
 on:
   push:
