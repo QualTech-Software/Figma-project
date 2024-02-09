@@ -3,7 +3,7 @@ name: Auto Generate PR
 on:
   push:
     branches:
-      - '*'
+      - DEV
 
 jobs:
   autoCreatePR:
