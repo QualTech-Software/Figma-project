@@ -3,13 +3,15 @@
   width: 1440px;
   height: 865px;
   margin: 0 auto;
-  background-image: url("assets/Rectangle\ 22\ 1.png"); /* Replace 'path/to/your/image.png' with the actual path to your image file */
+  background-image: url("../assets/Rectangle 22 1.png"); /* Replace 'path/to/your/image.png' with the actual path to your image file */
   background-size: cover; /* Adjust background-size property as needed */
   background-position: center center; /* Adjust background-position property as needed */
-  position: relative;
+  position: absolute;
+  top: 1266px;
 }
-h1 {
+.container h1 {
   font-size: 48px;
+  font-family: Manrope;
   line-height: 69.49px;
   text-align: center;
   font-weight: 600;
@@ -46,6 +48,7 @@ h6 {
   top: 85.38px;
   left: 409px;
   font-weight: 400;
+  font-family: Manrope;
   font-size: 18px;
   line-height: 26.1px;
   letter-spacing: 5%;
@@ -63,6 +66,7 @@ h6 {
 .card {
   border-radius: 8px;
   background-color: #eeebeb;
+  font-family: Manrope;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;

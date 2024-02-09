@@ -1,22 +1,24 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
 
-import Robust from "../assets/Robust.svg";
-import Reliable from "../assets/Reliable.svg";
-import Scalable from "../assets/Scalable.svg";
-import Innovative from "../assets/Innovative.svg";
-import Accessible from "../assets/Accessible.svg";
-import Fast from "../assets/Fast.svg";
-import Navigational from "../assets/Navigational.svg";
-import Soothing from "../assets/Soothing.svg";
-import Functional from "../assets/Functional.svg";
-import Secure from "../assets/Secure.svg";
-import Customized from "../assets/Customized.svg";
-import UserFriendly from "../assets/Userfriendly.svg";
-import Affordable from "../assets/Affordable.svg";
-import Optimization from "../assets/Optimization.svg";
-import Productive from "../assets/Productive.svg";
-import Analytics from "../assets/Analytics.svg";
+import {
+  Robust,
+  Reliable,
+  Scalable,
+  Innovative,
+  Accessible,
+  Fast,
+  Navigational,
+  Soothing,
+  Functional,
+  Secure,
+  Customized,
+  UserFriendly,
+  Affordable,
+  Optimization,
+  Productive,
+  Analytics,
+} from "../assets";
 
 function Service() {
   const services = [
@@ -139,7 +141,7 @@ function Service() {
       svgImages: [
         {
           src: UserFriendly,
-          alt: "Userfriendly logo",
+          alt: "Userfriendlylogo",
           className: "user-friendly-img",
           label: "User-friendly",
           labelClass: "userfriendly",

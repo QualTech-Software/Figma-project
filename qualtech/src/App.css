@@ -32,8 +32,8 @@ li {
   color: white;
 }
 
-.container {
-  width: 1440px;
+.containers {
+  width: 1447px;
   height: 100px;
   background-color: white;
   display: flex;
@@ -41,6 +41,9 @@ li {
   align-items: center;
   position: fixed;
   padding: 5px 0;
+  top: 0; /* Stick to the top of the viewport */
+  left: 0; /* Align to the left edge */
+  z-index: 1000;
 }
 .nav-home {
   width: 51px;
@@ -193,7 +196,7 @@ ul {
   height: 726px;
   angle: 0 deg;
 }
-.Title {
+.Titles {
   position: absolute;
   top: 115px;
   left: 90px;
@@ -201,7 +204,7 @@ ul {
   height: 168px;
 }
 
-.Title h1 {
+.Titles h1 {
   font-family: Lato;
   font-size: 58px;
   font-weight: 700;
@@ -210,14 +213,14 @@ ul {
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
-.Text {
+.Texts {
   position: absolute;
   top: 329px;
   left: 88px;
   width: 630px;
   height: 130px;
 }
-.Text p {
+.Texts p {
   font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
@@ -229,8 +232,8 @@ ul {
 .button {
   width: 217px;
   height: 56px;
-  background-color: rgba(0, 0, 0, 1);
-  color: white;
+  background-color: white(0, 0, 0, 1);
+  color: black;
   border: none;
   border-radius: 8px;
   font-family: "Manrope", sans-serif;
@@ -243,7 +246,7 @@ ul {
   left: 88px;
 }
 .button:hover {
-  background-color: rgba(26, 64, 92, 1); /* Same color as default */
+  background-color: rgba(10, 190, 222, 1); /* Same color as default */
 }
 button p {
   font-family: Manrope;
@@ -299,7 +302,8 @@ button p {
   color: white;
   line-height: 22px;
   text-align: center;
-  margin-left: 1px;
+  position: relative;
+  left: -9px;
 }
 .designs {
   width: 289.55px;

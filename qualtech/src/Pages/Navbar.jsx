@@ -4,7 +4,7 @@ import { qualtech, Group } from "../assets";
 const Navbar = () => {
   return (
     <>
-      <div className="container">
+      <div className="containers">
         <img src={qualtech} className="logo-img" />
         <ul className="navbar-nav">
           <li className="nav-item active">
