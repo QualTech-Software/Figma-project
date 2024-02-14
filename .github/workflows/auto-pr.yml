@@ -3,7 +3,10 @@ name: Auto Create PR
 on:
   push:
     branches:
-      - '*'
+      - main
+      - UAT
+      - STAGE
+      - DEV
 
 jobs:
   autoCreatePR:
