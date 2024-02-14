@@ -1,0 +1,32 @@
+{
+  "pageTitle": "Our Success Stories",
+  "pageText": "We believe in long-term relationships with our clients. Let’s have a look at our successful projects and happy clients.",
+  "pages": [
+    {
+      "image": "Rectangle_stories",
+      "alt": "Project",
+      "title": "CanQualify :",
+      "description": "Qualify and Manage Suppliers. CanQualify helps hiring clients identify and mitigate risks within their supply chain. We provide hiring clients the crucial tools necessary to connect with safe companies that have been pre-qualified based on specific client requirements.",
+      "region": "USA",
+      "platform": "Web, iOS, Android",
+      "technology": "Flutter, Php, DevOps",
+      "imageClass": "rectangle_stories",
+      "descriptionClass": "qt-region",
+      "platformClass": "qt-platform",
+      "technologyClass": "qt-technology"
+    },
+    {
+      "image": "Rectangle_dog",
+      "alt": "Rectangle_dog",
+      "title": "Mypet :",
+      "description": "Online Dog Adopt & Care. Mypet helps pet lovers find and adopt dogs. It provides a platform for dog lovers to connect, share information, and adopt dogs in need of homes.",
+      "region": "USA",
+      "platform": "Web, iOS, Android",
+      "technology": "Flutter, Php, DevOps",
+      "imageClass": "rectangle_dog",
+      "descriptionClass": "qt-region",
+      "platformClass": "qt-platform",
+      "technologyClass": "qt-technology"
+    }
+  ]
+}

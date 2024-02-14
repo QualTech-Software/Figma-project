@@ -45,6 +45,7 @@ li {
   left: 0; /* Align to the left edge */
   z-index: 1000;
 }
+
 .nav-home {
   width: 51px;
   height: 26px;
@@ -64,6 +65,7 @@ li {
   color: rgba(10, 190, 222, 1);
   text-decoration: underline;
   text-decoration-color: rgb(41, 39, 39);
+  transition: width 0.3s ease, left 0.3s ease;
 }
 .nav-about {
   width: 95px;

@@ -1,0 +1,28 @@
+{
+  "logo": "qt_logo",
+  "socialMedia": {
+    "facebook": "qt_fb",
+    "linkedin": "qt_ln"
+  },
+  "services": [
+    { "name": "Product Development", "className": "text-product" },
+    { "name": "DevOps Services", "className": "text-devops" },
+    { "name": "UI/UX", "className": "text-ui" },
+    { "name": "Mobile Apps Development", "className": "text-mobile" },
+    { "name": "Website Development", "className": "text-web" },
+    { "name": "Digital Marketing", "className": "text-dig" }
+  ],
+  "quickLinks": [
+    { "name": "About Us", "className": "text-us" },
+    { "name": "Services", "className": "text-service" },
+    { "name": "Portfolio", "className": "text-portfolio" },
+    { "name": "Careers", "className": "text-Career" },
+    { "name": "Testimonials", "className": "text-Testimoanials" }
+  ],
+  "contact": {
+    "address": "701/1, Unit No. 4, Shahupuri 3rd Lane, Kolhapur, Maharashtra, India -- 416001",
+    "phone": "+91 7758002484",
+    "email": "info@qualtech.biz"
+  },
+  "footerText": "2024 Qualtech Softwares. All Rights Reserved."
+}

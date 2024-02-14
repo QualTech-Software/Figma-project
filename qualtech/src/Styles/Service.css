@@ -7,7 +7,7 @@
   background-size: cover; /* Adjust background-size property as needed */
   background-position: center center; /* Adjust background-position property as needed */
   position: absolute;
-  top: 1266px;
+  top: 1244px;
 }
 .container h1 {
   font-size: 48px;
@@ -41,7 +41,7 @@
     right: -488px; /* Adjust the positioning of the line on the right side */
   }
 }
-h6 {
+.container h6 {
   width: 640px;
   height: 51.62px;
   position: absolute;
