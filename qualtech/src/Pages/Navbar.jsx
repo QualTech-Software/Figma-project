@@ -1,43 +1,30 @@
 import React from "react";
 import { qualtech, Group } from "../assets";
+import NavData from "../Data/NavData.json";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <div className="container">
         <img src={qualtech} className="logo-img" />
+        {/* TODO:: We need to convert this into the compound component */}
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-home" href="#">
-              Home{" "}
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-about" href="#">
-              About Us
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-service" href="#">
-              Services
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-portfolio" href="#">
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-career" href="#">
-              Career
-            </a>
-          </li>
+          {NavData.navItems.map((item) => (
+            <li
+              key={item.id}
+              className={`nav-item ${item.isActive ? "active" : ""}`}
+            >
+              <Link className={item.className} to={item.to}>
+                {item.name}
+              </Link>
+            </li>
+          ))}
           <button className="nav-button">
-            <a className="nav-btn" href="#">
-              {" "}
+            <Link className="nav-btn" to="/contact">
               <img src={Group} className="rocket" />
               Contact Us
-            </a>
+            </Link>
           </button>
         </ul>
       </div>

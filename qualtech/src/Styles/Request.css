@@ -1,0 +1,150 @@
+.qt-request {
+  width: 1440px;
+  height: 630px;
+  margin-top: -1845px;
+}
+.qt-request img {
+  margin-top: -3090px;
+  margin-left: -2px;
+}
+.sentReq {
+  width: 584px;
+  height: 510px;
+  gap: 32px;
+  margin-top: -610px;
+  position: relative;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+.sentReq .message {
+  width: Fixed 569px;
+  height: 134px;
+  gap: 16px;
+}
+.sentReq .message h3 {
+  font-family: "Manrope";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+.sentReq .message p {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+}
+.sentReq .form {
+  width: 584px;
+  height: 344px;
+  gap: 32px;
+}
+.sentReq .form .datafield {
+  margin: 20px;
+  padding: 5px;
+  position: relative;
+  width: 280px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+}
+.sentReq .datafield input {
+  margin: 15px;
+  font-family: "Manrope";
+  font-size: 18px;
+  height: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-top: 15px;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+.sentReq .emailfield {
+  width: 584px;
+  height: 56px;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 45px;
+}
+.sentReq .emailfield input {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 273px;
+}
+.sentReq .describe {
+  width: 600px;
+  height: 80px;
+  top: -140px;
+  border-radius: 8px;
+  position: relative;
+  margin-top: 175px;
+  margin-left: 45px;
+}
+.sentReq .describe input {
+  font-family: "Manrope";
+  font-size: 18px;
+  height: 26px;
+  width: 235px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-bottom: 44px;
+  padding-right: 250px;
+}
+.sentReq .reqbtn {
+  width: Fixed 584px;
+  height: Fixed (56px);
+  border-radius: 8px;
+  position: relative;
+  margin-top: -120px;
+  margin-left: 45px;
+}
+.sentReq .reqbtn button {
+  width: Fixed (199px);
+  height: Hug (23px);
+  gap: 10px;
+  border-radius: 8px;
+  padding-top: 16.5px;
+  padding-left: 192.5px;
+  padding-right: 197.5px;
+  padding-bottom: 16.5px;
+  font-size: 18px;
+  font-family: "Manrope";
+  color: white;
+  background: rgba(10, 190, 222, 1);
+}
+.sentReq .reqbtn button img {
+  width: 15.14px;
+  height: 13.18px;
+  border: 2px;
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.sentReq .reqbtn button:hover {
+  background-color: rgba(26, 64, 92, 1);
+}

@@ -193,14 +193,14 @@ function Service() {
   return (
     <div>
       <section>
-        <div className="container">
+        <div className="containers">
           <h1>Our Services</h1>
           <h6>
             QualTech offers a wide range of digital transformation services,
             such as building web and mobile apps and giving advice on cloud
             computing
           </h6>
-          <div className="cards">
+          <div className="cardis">
             {services.map((service, index) => (
               <ServiceCard key={index} {...service} />
             ))}

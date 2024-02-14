@@ -1,0 +1,46 @@
+{
+  "navItems": [
+    {
+      "id": 1,
+      "name": "Home",
+      "className": "nav-home",
+      "to": "/",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "About Us",
+      "className": "nav-about",
+      "to": "/about",
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Services",
+      "className": "nav-service",
+      "to": "/service",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "name": "Portfolio",
+      "className": "nav-portfolio",
+      "to": "/portfolio",
+      "isActive": false
+    },
+    {
+      "id": 5,
+      "name": "Career",
+      "className": "nav-career",
+      "to": "/career",
+      "isActive": false
+    },
+    {
+      "id": 6,
+
+      "className": "nav-btn",
+      "to": "/contact",
+      "isActive": false
+    }
+  ]
+}
