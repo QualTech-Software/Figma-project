@@ -22,13 +22,13 @@ function App() {
       <Navbar />
       <Home />
       <Learn />
+      <Service />
       <Project />
       <Technology />
+      <Stories />
       <Client />
       <Feedback />
       <RequestForm />
-      <Service />
-      <Stories />
       <Footer />
     </>
   );
