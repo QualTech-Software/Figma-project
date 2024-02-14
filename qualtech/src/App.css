@@ -194,7 +194,7 @@ li {
   background-position-y: 100%;
   background-position-x: 50%;
   background-repeat: no-repeat;
-  transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.3s ease-in-out;
 }
 .nav-career:hover,
 .nav-career:focus,
