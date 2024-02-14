@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - UAT
+      - DEV
       - STAGE
 
 jobs:
