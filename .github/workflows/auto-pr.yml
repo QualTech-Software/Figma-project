@@ -4,10 +4,7 @@ on:
   push:
     branches:
       - '!main'
-      - UAT
-      - STAGE
-      - DEV
-
+      - '*'
 jobs:
   autoCreatePR:
     runs-on: ubuntu-latest
