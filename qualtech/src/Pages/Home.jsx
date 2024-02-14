@@ -5,10 +5,10 @@ const Home = () => (
   <>
     <div className="homecontainer">
       <img src={Vector} className="vector" />
-      <div className="Title">
+      <div className="Titles">
         <h1>Growing Businesses through Digital Transformation.</h1>
       </div>
-      <div className="Text">
+      <div className="Texts">
         <p>
           QualTech has been established with the vision of providing a software
           platform to the business, societal sections lacking the benefits of

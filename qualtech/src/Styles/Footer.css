@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@400;700&family=Manrope:wght@700&display=swap");
+.qt-footer {
+  width: 1440px;
+  height: 515px;
+  top: 4795px;
+  position: relative;
+  background: rgba(26, 64, 92, 1);
+}
+.qt_f {
+  width: 1276.24px;
+  height: 375px;
+  gap: 100px;
+  position: relative;
+  top: 40px;
+  left: 82px;
+}
+.qt_i {
+  width: 257.24px;
+  height: 213.05px;
+  gap: 40px;
+}
+.qt_logo {
+  width: 257.24px;
+  height: 72.05px;
+  gap: 8px;
+}
+.qt_i p {
+  width: 108px;
+  height: 25px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 15px;
+}
+.qt_i p:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt_fb {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: 20px;
+  gap: 10px;
+}
+.qt_ln {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.qt_services {
+  width: 227px;
+  height: 375px;
+  position: relative;
+  top: -266px;
+  left: 370px;
+  gap: 24px;
+}
+
+.qt_services h6 {
+  width: 103px;
+  height: 35px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.qt_services h6:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-product {
+  width: 191px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: -35px;
+}
+.text-product:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-devops {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: -25px;
+}
+.text-devops:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-ui {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: -15px;
+}
+.text-ui:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-mobile {
+  width: 227px;
+  height: 33px;
+  padding: 0px, 0px, 7px, 0px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: -5px;
+}
+.text-mobile:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-web {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 5px;
+}
+.text-web:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-dig {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 15px;
+}
+.text-dig:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt_links {
+  width: 143px;
+  height: 318px;
+  position: relative;
+  top: -700px;
+  left: 700.24px;
+  gap: 24px;
+}
+.qt_links h6 {
+  width: 134px;
+  height: 35px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+}
+.qt_links h6:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-us {
+  width: 80px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: -35px;
+}
+.text-us:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-service {
+  width: 76px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: -25px;
+}
+.text-service:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-portfolio {
+  width: 76px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: -15px;
+}
+.text-portfolio:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-Career {
+  width: 70px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: -5px;
+}
+.text-Career:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.text-Testimoanials {
+  width: 122px;
+  height: 26px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: 5px;
+}
+.text-Testimoanials:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt_contact {
+  width: 349px;
+  height: 250px;
+  position: relative;
+  top: -1074px;
+  left: 930.24px;
+  gap: 24px;
+}
+
+.qt_contact h6 {
+  width: 98px;
+  height: 35px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: white;
+}
+.qt_contact h6:hover {
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt-add {
+  width: 349px;
+  height: 79px;
+  gap: 10px;
+}
+
+.qt_location {
+  width: 20px;
+  height: 24px;
+  top: -10px;
+  position: relative;
+}
+.qt-add p {
+  width: 314px;
+  height: 75px;
+  font-family: Manrope;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  top: -81px;
+  left: 25px;
+}
+.qt-add p:hover {
+  cursor: pointer;
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt-num {
+  width: 172px;
+  height: 33px;
+  top: -15px;
+  position: relative;
+  gap: 10px;
+}
+.qt-num p {
+  width: 139px;
+  height: 25px;
+  font-family: Manrope;
+  font-size: 18px;
+  position: relative;
+  left: 30px;
+  top: -48px;
+  line-height: 25px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+}
+.qt-num p:hover {
+  cursor: pointer;
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt-email {
+  width: 191px;
+  height: 33px;
+  gap: 10px;
+  top: 10px;
+  position: relative;
+}
+.qt-email p {
+  width: 157px;
+  height: 25px;
+  font-family: Manrope;
+  font-size: 18px;
+
+  line-height: 25px;
+  letter-spacing: 1%;
+  text-align: left;
+  color: white;
+  position: relative;
+  left: 33px;
+  top: -45px;
+}
+.qt-email p:hover {
+  cursor: pointer;
+  color: rgba(31, 206, 238, 0.8);
+}
+.qt_sw {
+  width: 1440px;
+  height: 80px;
+  border: 1px, 0px, 0px, 0px;
+  position: relative;
+  top: 4794px;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+}
+.qt_csvg {
+  width: 20px;
+  height: 23px;
+  position: relative;
+  top: 30px;
+  left: 483px;
+}
+.qt_sw p {
+  width: 449px;
+  height: 29px;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 1%;
+  text-align: left;
+  position: relative;
+  top: -20px;
+  left: 507px;
+  color: rgba(26, 64, 92, 1);
+}

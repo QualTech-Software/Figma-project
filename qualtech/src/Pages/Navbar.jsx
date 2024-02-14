@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="container">
+      <div className="containers">
         <img src={qualtech} className="logo-img" />
         {/* TODO:: We need to convert this into the compound component */}
         <ul className="navbar-nav">

@@ -51,6 +51,21 @@ li {
   margin-top: -20px;
   margin-left: -10px;
 }
+
+.containers {
+  width: 1447px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 5px 0;
+  top: 0; /* Stick to the top of the viewport */
+  left: 0; /* Align to the left edge */
+  z-index: 1000;
+}
+
 .nav-home {
   width: 51px;
   height: 26px;
@@ -64,12 +79,20 @@ li {
   color: black;
   position: absolute; /* Add this line to position absolutely */
   top: 39px; /* Position 37px from the top */
-  left: 648px; /* Position 648px from the left */
+  left: 648px;
+  background-image: linear-gradient(#464443, #3d3b3a);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
 }
-.nav-home:hover {
+.nav-home:hover,
+.nav-home:focus,
+.nav-home:active {
   color: rgba(10, 190, 222, 1);
-  text-decoration: underline;
-  text-decoration-color: rgb(41, 39, 39);
+
+  background-size: 100% 0.1em;
 }
 .nav-about {
   width: 95px;
@@ -84,12 +107,19 @@ li {
   color: black;
   position: absolute; /* Add this line to position absolutely */
   top: 39px; /* Position 37px from the top */
-  left: 747px; /* Position 648px from the left */
+  left: 747px;
+  background-image: linear-gradient(#464443, #3d3b3a);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.1s ease-in-out;
 }
-.nav-about:hover {
+.nav-about:hover,
+.nav-about:focus,
+.nav-about:active {
   color: rgba(10, 190, 222, 1);
-  text-decoration: underline;
-  text-decoration-color: rgb(41, 39, 39);
+  background-size: 100% 0.1em;
 }
 .nav-service {
   width: 75px;
@@ -104,12 +134,19 @@ li {
   color: black;
   position: absolute; /* Add this line to position absolutely */
   top: 39px; /* Position 37px from the top */
-  left: 874px; /* Position 648px from the left */
+  left: 874px;
+  background-image: linear-gradient(#464443, #3d3b3a);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
 }
-.nav-service:hover {
+.nav-service:hover,
+.nav-service:focus,
+.nav-service:active {
   color: rgba(10, 190, 222, 1);
-  text-decoration: underline;
-  text-decoration-color: rgb(41, 39, 39);
+  background-size: 100% 0.1em;
 }
 .nav-portfolio {
   width: 75px;
@@ -124,12 +161,19 @@ li {
   color: black;
   position: absolute; /* Add this line to position absolutely */
   top: 39px; /* Position 37px from the top */
-  left: 987px; /* Position 648px from the left */
+  left: 987px;
+  background-image: linear-gradient(#464443, #3d3b3a);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
 }
-.nav-portfolio:hover {
+.nav-portfolio:hover,
+.nav-portfolio:focus,
+.nav-portfolio:active {
   color: rgba(10, 190, 222, 1);
-  text-decoration: underline;
-  text-decoration-color: rgb(41, 39, 39);
+  background-size: 100% 0.1em;
 }
 .nav-career {
   width: 59px;
@@ -144,16 +188,23 @@ li {
   color: black;
   position: absolute; /* Add this line to position absolutely */
   top: 39px; /* Position 37px from the top */
-  left: 1110px; /* Position 648px from the left */
+  left: 1110px;
+  background-image: linear-gradient(#464443, #3d3b3a);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
 }
-.nav-career:hover {
+.nav-career:hover,
+.nav-career:focus,
+.nav-career:active {
   color: rgba(10, 190, 222, 1);
-  text-decoration: underline;
-  text-decoration-color: rgb(41, 39, 39);
+  background-size: 100% 0.1em;
 }
 .nav-button {
-  top: 27.53px; /* Position 25.53px from the top */
-  left: 1172px; /* Position 1213px from the left */
+  top: 27.53px;
+  left: 1172px;
   width: 147px;
   height: 49px;
   border-radius: 8px;
@@ -200,8 +251,12 @@ ul {
 .homecontainer {
   width: 100%;
   height: 926px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.Title {
+.Titles {
   position: absolute;
   top: 115px;
   left: 90px;
@@ -218,14 +273,14 @@ ul {
   text-align: left;
   color: rgba(255, 255, 255, 1);
 }
-.Text {
+.Texts {
   position: absolute;
   top: 329px;
   left: 88px;
   width: 630px;
   height: 130px;
 }
-.Text p {
+.Texts p {
   font-family: Manrope;
   font-size: 18px;
   font-weight: 400;
@@ -251,9 +306,13 @@ ul {
   cursor: pointer;
   left: 88px;
 }
+.button:hover {
+  background-color: rgba(10, 190, 222, 1); /* Same color as default */
+}
 .homecontainer .button:hover {
   background-color: #0abede;
 }
+
 button p {
   font-family: "Manrope";
   font-size: 18px;
@@ -309,6 +368,8 @@ button p {
   line-height: 22px;
   text-align: center;
   margin-left: -5px;
+  position: relative;
+  left: -9px;
 }
 .designs {
   width: 289.55px;

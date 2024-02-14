@@ -30,6 +30,14 @@ const Learn = () => {
   return (
     <>
       <div className="rect">
+        {imageData.map((image, index) => (
+          <RectangleImage
+            key={index}
+            src={image.src}
+            className={image.className}
+            alt={image.alt}
+          />
+        ))}
         {/* Main content */}
         <div className="rect-title">
           <h1>{title}</h1>
@@ -41,14 +49,6 @@ const Learn = () => {
           <p>Learn More</p>
         </button>
         {/* Rendering images dynamically using forEach loop */}
-        {imageData.map((image, index) => (
-          <RectangleImage
-            key={index}
-            src={image.src}
-            className={image.className}
-            alt={image.alt}
-          />
-        ))}
       </div>
       {/* Additional content */}
       <div className="additional-content">
