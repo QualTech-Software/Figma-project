@@ -229,9 +229,9 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: -1px;
+  margin-left: 20px;
   margin-right: 97px;
-  top: -2360px;
+  top: -2454px;
   position: relative;
   margin-bottom: 98px;
   height: 648px;
@@ -286,7 +286,6 @@ li {
 }
 .selected {
   transform: scale(1.1);
-  order: 2;
   margin-left: 52px;
   margin-right: 40px;
   margin-top: 2px;

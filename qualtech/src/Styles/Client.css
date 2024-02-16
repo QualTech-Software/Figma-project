@@ -1,8 +1,9 @@
 .client {
   width: 100%;
   height: 731px;
-  top: -2352px;
+  top: -2452px;
   position: relative;
+  margin-left: 20px;
 }
 
 .contenttag {

@@ -3,9 +3,10 @@
   width: 1440px;
   height: 851px;
   position: relative;
-  top: 3253px;
+  top: -2450px;
   padding: 40px, 80px, 40px, 80px;
   gap: 24px;
+  margin-left: 20px;
 }
 .stories {
   width: 478px;
@@ -144,7 +145,7 @@
   color: rgba(26, 64, 92, 1);
 }
 .AG_btn {
-  width: 1280px;
+  width: 1270px;
   height: 92px;
   top: 519px;
   border: 2px;

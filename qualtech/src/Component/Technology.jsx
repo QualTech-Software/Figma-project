@@ -61,7 +61,7 @@ const Technology = () => {
             />
           ))}
         </div>
-        <div className="navigation-buttons">
+        <div className="navigation-buttonz">
           {startIndex > 0 && (
             <div className="prev">
               <button onClick={handleClickPrevious}>&lt;</button>
