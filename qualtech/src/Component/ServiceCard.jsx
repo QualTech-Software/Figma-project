@@ -2,7 +2,7 @@ import React from "react";
 
 function ServiceCard({ title, description, svgImages }) {
   return (
-    <div className="card">
+    <div className="cardo">
       <div className="svg-container">
         {svgImages.map((image, index) => (
           <React.Fragment key={index}>

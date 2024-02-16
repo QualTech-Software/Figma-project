@@ -1,0 +1,23 @@
+[
+  {
+    "imageSrc": "../assets/Rectangle 17.svg",
+    "title": "Elontile - Elon tile & Store Webapp | Qualtech",
+    "message": "For over 50 years, Elon tile and Stone has been servicing the tile stone industry, adjusting to trends and demands.",
+    "textClass": "text1",
+    "msgClass": "msg1"
+  },
+  {
+    "imageSrc": "../assets/Rectangle 18.svg",
+    "title": "Elena Dragoi - Flower & Art Shop Online | Qualtech",
+    "message": "For over 50 years, Elon tile and Stone has been servicing the tile stone industry, adjusting to trends and demands.",
+    "textClass": "text2",
+    "msgClass": "msg2"
+  },
+  {
+    "imageSrc": "../assets/Rectangle 16.svg",
+    "title": "CanQualify- Manage Suppliers | Qualtech",
+    "message": "CanQualify helps hiring clients identify and mitigate risks within their supply chain.",
+    "textClass": "text3",
+    "msgClass": "msg3"
+  }
+]

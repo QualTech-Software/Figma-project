@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
-.container {
+.containercont {
   width: 1440px;
   height: 865px;
   margin: 0 auto;
@@ -7,9 +7,11 @@
   background-size: cover; /* Adjust background-size property as needed */
   background-position: center center; /* Adjust background-position property as needed */
   position: absolute;
-  top: 1244px;
+  top: 1342px;
+  margin-left: 20px;
 }
-.container h1 {
+.containercont h1,
+.containercont h1 {
   font-size: 48px;
   font-family: Manrope;
   line-height: 69.49px;
@@ -41,7 +43,7 @@
     right: -488px; /* Adjust the positioning of the line on the right side */
   }
 }
-.container h6 {
+.containercont h6 {
   width: 640px;
   height: 51.62px;
   position: absolute;
@@ -56,14 +58,14 @@
   justify-content: center;
   align-items: center;
 }
-.cards {
+.cardis {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   flex-direction: row;
   justify-content: space-between;
 }
-.card {
+.cardo {
   border-radius: 8px;
   background-color: #eeebeb;
   font-family: Manrope;
@@ -75,7 +77,7 @@
   width: 400px;
   height: 280px;
 }
-.card:hover {
+.cardo:hover {
   background-color: rgba(31, 206, 238, 0.8);
   color: white;
   .text {
@@ -132,37 +134,37 @@
   height: 20px;
   display: flex;
 }
-.card:nth-child(1) {
+.cardo:nth-child(1) {
   position: absolute;
   top: 217px;
   left: 80px;
   z-index: 2; /* Adjust the z-index if needed to ensure it's on top of other cards */
 }
-.card:nth-child(2) {
+.cardo:nth-child(2) {
   position: absolute;
   top: 217px;
   left: 520px;
   z-index: 1; /* Adjust the z-index if needed to ensure it's on top of the first card and below other cards */
 }
-.card:nth-child(3) {
+.cardo:nth-child(3) {
   position: absolute;
   top: 217px;
   left: 960px;
   z-index: 2; /* Adjust the z-index if needed to ensure it's on top of the first two cards and below other cards */
 }
-.card:nth-child(4) {
+.cardo:nth-child(4) {
   position: absolute;
   top: 537px;
   left: 80px;
   z-index: 3; /* Adjust the z-index as needed */
 }
-.card:nth-child(5) {
+.cardo:nth-child(5) {
   position: absolute;
   top: 537px;
   left: 520px;
   z-index: 4; /* Adjust the z-index as needed */
 }
-.card:nth-child(6) {
+.cardo:nth-child(6) {
   position: absolute;
   top: 537px;
   left: 960px;
@@ -177,7 +179,7 @@
   border-radius: 8px;
   border: 1px solid rgba(31, 206, 238, 0.8);
 }
-.card:hover .svg-container {
+.cardo:hover .svg-container {
   border-color: #fff;
 }
 .svg-img,
@@ -282,50 +284,50 @@
   top: 190.64px;
   right: 21.5px;
 }
-.card:hover .svg-img,
-.card:hover .reliable-img,
-.card:hover .scalable-img {
+.cardo:hover .svg-img,
+.cardo:hover .reliable-img,
+.cardo:hover .scalable-img {
   fill: white;
   color: white;
   filter: brightness(0) invert(1);
 }
-.card:hover .innovative-img,
-.card:hover .accessible-img,
-.card:hover .fast-img,
-.card:hover .innovatives-img,
-.card:hover .navigational-img,
-.card:hover .soothing-img,
-.card:hover .functional-img,
-.card:hover .secure-img,
-.card:hover .customized-img,
-.card:hover .user-friendly-img,
-.card:hover .affordable-img,
-.card:hover .innovation-img,
-.card:hover .optimization-img,
-.card:hover .productive-img,
-.card:hover .analytics-img {
+.cardo:hover .innovative-img,
+.cardo:hover .accessible-img,
+.cardo:hover .fast-img,
+.cardo:hover .innovatives-img,
+.cardo:hover .navigational-img,
+.cardo:hover .soothing-img,
+.cardo:hover .functional-img,
+.cardo:hover .secure-img,
+.cardo:hover .customized-img,
+.cardo:hover .user-friendly-img,
+.cardo:hover .affordable-img,
+.cardo:hover .innovation-img,
+.cardo:hover .optimization-img,
+.cardo:hover .productive-img,
+.cardo:hover .analytics-img {
   fill: black;
   color: white;
   filter: brightness(0) invert(1);
 }
-.card:hover .svg-label.robust,
-.card:hover .svg-label.reliable,
-.card:hover .svg-label.scalable,
-.card:hover .svg-label.innovative,
-.card:hover .svg-label.accessible,
-.card:hover .svg-label.fast,
-.card:hover .svg-label.innovatives,
-.card:hover .svg-label.navigational,
-.card:hover .svg-label.soothing,
-.card:hover .svg-label.functional,
-.card:hover .svg-label.secure,
-.card:hover .svg-label.customized,
-.card:hover .svg-label.userfriendly,
-.card:hover .svg-label.affordable,
-.card:hover .svg-label.innovation,
-.card:hover .svg-label.optimization,
-.card:hover .svg-label.productive,
-.card:hover .svg-label.analytics {
+.cardo:hover .svg-label.robust,
+.cardo:hover .svg-label.reliable,
+.cardo:hover .svg-label.scalable,
+.cardo:hover .svg-label.innovative,
+.cardo:hover .svg-label.accessible,
+.cardo:hover .svg-label.fast,
+.cardo:hover .svg-label.innovatives,
+.cardo:hover .svg-label.navigational,
+.cardo:hover .svg-label.soothing,
+.cardo:hover .svg-label.functional,
+.cardo:hover .svg-label.secure,
+.cardo:hover .svg-label.customized,
+.cardo:hover .svg-label.userfriendly,
+.cardo:hover .svg-label.affordable,
+.cardo:hover .svg-label.innovation,
+.cardo:hover .svg-label.optimization,
+.cardo:hover .svg-label.productive,
+.cardo:hover .svg-label.analytics {
   color: white;
   filter: brightness(0) invert(1);
 }

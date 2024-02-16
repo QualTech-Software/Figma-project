@@ -1,0 +1,105 @@
+.client {
+  width: 100%;
+  height: 731px;
+  top: -2452px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.contenttag {
+  width: 427px;
+  height: 70px;
+  top: 40px;
+  position: absolute;
+  left: 80px;
+}
+.contenttag p {
+  font-family: "Manrope";
+  font-size: 45px;
+  width: 427px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-top: 40px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: white;
+}
+.clientimage {
+  width: 1280px;
+  height: 533px;
+  margin-top: -560px;
+  position: relative;
+  left: 80px;
+}
+.clientimage .healthcare {
+  width: 399.26px;
+  height: 300px;
+  margin-right: 960.74px;
+}
+.clientimage .healthcare img {
+  width: 345.11px;
+  height: 300px;
+  margin-top: -10px; /*decrease*/
+  left: 981.17px;
+}
+
+.clientimage .farms {
+  width: 399.26px;
+  height: 300px;
+  left: 498.91px;
+  position: relative;
+  margin-bottom: 281px;
+  margin-top: -300px; /*decrease*/
+}
+.clientimage .farms img {
+  width: 345.11px;
+  height: 300px;
+  top: 300px;
+  left: 981.17px;
+}
+.clientimage .market {
+  width: 405.66px;
+  height: 300px;
+  top: -380px;
+  position: relative;
+  left: 252.43px;
+}
+.clientimage .market img {
+  width: 345.11px;
+  height: 300px;
+  top: 310px;
+  left: 981.17px;
+}
+.clientimage .dome {
+  width: 405.66px;
+  height: 300px;
+  top: -670px;
+  left: 746.34px;
+  position: relative;
+}
+.clientimage .dome img {
+  width: 351.51px;
+  height: 300px;
+  top: 533px;
+  left: 1280px;
+}
+.client:hover .healthcare,
+.client:hover .farms {
+  transform: translateY(27px);
+  transition: transform 1.5s ease;
+}
+
+.client:hover .dome,
+.client:hover .market {
+  transform: translateY(-27px);
+  transition: transform 1.5s ease;
+}
+.client .healthcare,
+.client .farms {
+  transition: transform 0.9s ease;
+}
+
+.client .dome,
+.client .market {
+  transition: transform 0.9s ease;
+}

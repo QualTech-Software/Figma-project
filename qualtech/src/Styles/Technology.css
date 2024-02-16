@@ -1,0 +1,200 @@
+.rows {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  height: 223px;
+  top: 2728px;
+  left: 20px;
+  position: absolute;
+}
+.techno {
+  width: 1440px;
+  height: 421px;
+  top: -5000px;
+  background-color: transparent;
+  position: relative;
+}
+.techno h2 {
+  font-family: "Manrope";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  position: absolute;
+  top: 2610px;
+  left: 35px;
+}
+/*
+.hori {
+  width: 1580px;
+  height: 421px;
+  top: 3432px;
+  position: relative;
+}*/
+.cardz {
+  width: 149px;
+  height: 190px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid #0abede;
+  margin: 24px;
+}
+.cardz img {
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+
+  margin-left: 43.5px;
+}
+.cardz .backimg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.cardz #backimg:hover {
+  display: inline;
+}
+.cardz p {
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-left: 39px;
+  margin-bottom: 50px;
+}
+.cardz .adobe p {
+  margin-left: 30px;
+}
+.cardz:hover {
+  background-color: #0abede;
+}
+.navigation-buttons:hover button {
+  opacity: 1; /* Display the button when hovering over the container */
+}
+/* .cardz img .python:hover {
+  background-image: url("../py-logo.png");
+} */
+.navigation-buttonz {
+  margin-top: 2480px;
+  margin-left: 1355px;
+}
+.navigation-buttonz button {
+  height: 30px;
+  width: 30px;
+  margin-top: 2880px;
+  position: absolute;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 35px;
+  opacity: 2; /* Initially hide the button */
+  transition: opacity 0.3s;
+}
+.cardz:hover .python {
+  content: url("../assets/python-white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .angular {
+  content: url("../assets/angular white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .java {
+  content: url("../assets/java white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .php {
+  content: url("../assets/php white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 48px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .flutter {
+  content: url("../assets/flutter white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .figma {
+  content: url("../assets/figma white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .uiux {
+  content: url("../assets/uiux white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .react {
+  content: url("../assets/react white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.cardz:hover .adobe {
+  content: url("../assets/adob white.png");
+  width: 64px;
+  height: 64px;
+  margin-top: 50px;
+  margin-left: 47.5px;
+  .cardz p {
+    margin-left: 33px;
+    margin-bottom: 50px;
+  }
+}
+.navigation-buttonz .prev button {
+  margin-left: -1300px;
+  position: absolute;
+}
