@@ -3,7 +3,7 @@
   flex-direction: row;
   width: 1500px;
   height: 223px;
-  top: 2758px;
+  top: 2728px;
   left: 20px;
   position: absolute;
 }
@@ -22,7 +22,7 @@
   letter-spacing: 0.01em;
   text-align: left;
   position: absolute;
-  top: 2640px;
+  top: 2610px;
   left: 35px;
 }
 /*
@@ -46,7 +46,7 @@
   height: 64px;
   margin-top: 50px;
 
-  margin-left: 47.5px;
+  margin-left: 43.5px;
 }
 .cardz .backimg {
   display: none;
@@ -80,18 +80,18 @@
 /* .cardz img .python:hover {
   background-image: url("../py-logo.png");
 } */
-.navigation-buttons {
+.navigation-buttonz {
   margin-top: 2480px;
   margin-left: 1355px;
 }
-.navigation-buttons button {
+.navigation-buttonz button {
   height: 30px;
   width: 30px;
-  margin-top: 2900px;
+  margin-top: 2880px;
   position: absolute;
   border: 2px solid black;
   border-radius: 10px;
-  margin-left: 30px;
+  margin-left: 35px;
   opacity: 2; /* Initially hide the button */
   transition: opacity 0.3s;
 }
@@ -194,7 +194,7 @@
     margin-bottom: 50px;
   }
 }
-.navigation-buttons .prev button {
+.navigation-buttonz .prev button {
   margin-left: -1300px;
   position: absolute;
 }

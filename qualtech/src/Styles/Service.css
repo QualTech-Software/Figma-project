@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
-.containers {
-  /*width: 1440px;*/
+.containercont {
+  width: 1440px;
   height: 865px;
   margin: 0 auto;
   background-image: url("../assets/Rectangle 22 1.png"); /* Replace 'path/to/your/image.png' with the actual path to your image file */
   background-size: cover; /* Adjust background-size property as needed */
   background-position: center center; /* Adjust background-position property as needed */
   position: absolute;
-  top: 1244px;
+  top: 1342px;
+  margin-left: 20px;
 }
-.containers h1,
-.container h1 {
+.containercont h1,
+.containercont h1 {
   font-size: 48px;
   font-family: Manrope;
   line-height: 69.49px;
@@ -42,7 +43,7 @@
     right: -488px; /* Adjust the positioning of the line on the right side */
   }
 }
-.container h6 {
+.containercont h6 {
   width: 640px;
   height: 51.62px;
   position: absolute;

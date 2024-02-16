@@ -195,7 +195,7 @@ function Service() {
   return (
     <div>
       <section>
-        <div className="containers">
+        <div className="containercont">
           <h1>Our Services</h1>
           <h6>
             QualTech offers a wide range of digital transformation services,

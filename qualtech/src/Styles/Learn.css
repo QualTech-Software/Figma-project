@@ -3,8 +3,9 @@
 .rect {
   width: 1440px;
   height: 484px;
-  position: absolute;
-  top: 760px;
+  position: relative;
+  top: -375px;
+  margin-left: 20px;
 }
 
 .rectangle {
@@ -88,16 +89,16 @@
 .additional-content {
   width: 720px;
   height: 484px;
-  position: absolute;
+  position: relative;
   left: 730px;
-  top: 780px;
+  top: -980px;
 }
 .additional-title h1 {
   width: 344px;
   height: 92px;
   position: relative;
-  top: 172px;
-  left: 190px;
+  top: 292px;
+  left: 163px;
   transition-duration: 0.5s;
   color: white;
   text-align: center;
@@ -107,8 +108,8 @@
 .additional-content:hover .additional-title h1 {
   width: 344px;
   height: 92px;
-  top: 80px;
-  left: 189px;
+  top: 192px;
+  left: 163px;
   font-family: Manrope;
   text-align: center;
 }
@@ -116,16 +117,16 @@
   opacity: 0;
   width: 489px;
   height: 104px;
-  position: absolute;
+  position: relative;
   top: 192px;
-  left: 116px;
+  left: -60px;
   color: white;
 }
 .additional-content:hover .additional-text {
   opacity: 1;
   width: 489px;
   height: 104px;
-  position: absolute;
+  position: relative;
   top: 192px;
   left: 116px;
   color: white;
@@ -139,9 +140,9 @@
 .additional-learn {
   width: 192px;
   height: 59px;
-  position: absolute;
-  top: 380px;
-  left: 265px;
+  position: relative;
+  top: 40px;
+  left: 230px;
   transition: all 0.3s ease;
   opacity: 0;
   border-radius: 8px;
@@ -155,6 +156,6 @@
   opacity: 1;
   width: 192px;
   height: 59px;
-  top: 380px;
-  left: 265px;
+  top: 242px;
+  left: 230px;
 }

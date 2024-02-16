@@ -1,7 +1,7 @@
 import React from "react";
 import rectangle from "../assets/Rectangle 19.svg";
 import "../Styles/Project.css";
-import arrow from "../assets/Arrow2.svg";
+import arrow from "../assets/arr3.svg";
 import ProjectCard from "../Card/ProjectCard";
 import PrjData from "../Data/Prjdata.json";
 import { rec17, rec18, rec16 } from "../assets";
